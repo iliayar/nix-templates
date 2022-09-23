@@ -18,6 +18,7 @@
           devShell = pkgs.mkShell rec {
             buildInputs = with pkgs; [
               nodePackages.npm
+              nodePackages.typescript-language-server
               nodejs
             ];
           };
