@@ -17,7 +17,7 @@
         {
           devShell = pkgs.mkShell rec {
             buildInputs = with pkgs; [
-              nodePacakges.npm
+              nodePackages.npm
               nodejs
             ];
           };
