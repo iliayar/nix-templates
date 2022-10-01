@@ -14,12 +14,17 @@
       };
       python-mach = {
         path = ./python-mach;
-        description = "Basic pythone env with mach-nix";
+        description = "Basic python env with mach-nix";
       };
 
       nodejs = {
         path = ./nodejs;
-        description = "Basic pythone env with mach-nix";
+        description = "Basic nodejs typescript env";
+      };
+
+      cxx = {
+        path = ./cxx;
+        description = "Basic C++ CMake project";
       };
     };
   };
