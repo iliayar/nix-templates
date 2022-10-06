@@ -26,6 +26,11 @@
         path = ./cxx;
         description = "Basic C++ CMake project";
       };
+
+      rust-bin = {
+        path = ./rust;
+        description = "Basic rust binary project";
+      };
     };
   };
 }
