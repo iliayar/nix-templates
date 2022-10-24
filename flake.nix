@@ -19,17 +19,32 @@
 
       nodejs = {
         path = ./nodejs;
-        description = "Basic nodejs typescript env";
+        description = "Basic nodejs typescript env with example";
       };
 
       cxx = {
         path = ./cxx;
-        description = "Basic C++ CMake project";
+        description = "Basic C++ CMake project with example";
       };
 
       rust-bin = {
         path = ./rust;
-        description = "Basic rust binary project";
+        description = "Basic rust binary project with example";
+      };
+
+      java-gradle = {
+        path = ./java-gradle;
+        description = "Basic java gradle project with example";
+      };
+
+      java-gradle-empty = {
+        path = ./java-gradle-empty;
+        description = "Env with java, gradle";
+      };
+
+      java-maven-empty = {
+        path = ./java-maven-empty;
+        description = "Env with java, maven";
       };
     };
   };
